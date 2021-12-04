@@ -17,5 +17,21 @@ npm install
 
 // Serve
 npm run dev
-
 ```
+
+## TODO
+- [x] Use Vue2
+- [x] Environment Variable
+- [x] Boostrap-vue
+- [ ] Prod Build
+- [ ] Test Vuex
+- [ ] Proxy Dev Server
+- [ ] Eslint
+- [ ] Husky
+- [ ] Setup Jest
+- [ ] Setup Cypress
+- [ ] Other Libraries
+
+## Issues Encountered
+1. Can't import boostrap file into one scss file - https://github.com/bootstrap-vue/bootstrap-vue/issues/5797
+2. Turn off sass deprecation warning - https://github.com/twbs/bootstrap/issues/34051

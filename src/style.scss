@@ -1,3 +1,11 @@
+// Define variable defaults
+$body-bg: rgb(252, 252, 252);
+$body-color: rgb(22, 1, 1);
+
+// Then import Bootstrap an BootstrapVue SCSS files (order is important)
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-vue/src/index.scss';
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
