@@ -4,10 +4,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "preinstall": "npx only-allow yarn"
   },
   "devDependencies": {
-    "sass": "^1.32.13",
+    "sass": "1.32.13",
     "vite": "^2.6.4",
     "vite-plugin-vue2": "^1.9.0",
     "vue-template-compiler": "^2.6.14"

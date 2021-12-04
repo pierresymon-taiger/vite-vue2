@@ -2,7 +2,7 @@
   <div>
     <NavBar></NavBar>
     <div>Main</div>
-    <b-alert show variant="primary"><a href="#" class="alert-link">Primary Alert</a></b-alert>
+    <b-alert show variant="primary"><a href="#" class="alert-link">Test Alert</a></b-alert>
     <p>App key: {{ appKey }}</p>
   </div>
 </template>

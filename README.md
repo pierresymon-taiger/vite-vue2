@@ -13,17 +13,20 @@ etc . .
 Install and serve
 ```
 // Install
-npm install
+yarn install
 
 // Serve
-npm run dev
+yarn dev
+
+// Build creates a dist folder
+yarn build
+
 ```
 
 ## TODO
 - [x] Use Vue2
 - [x] Environment Variable
 - [x] Boostrap-vue
-- [ ] Prod Build
 - [ ] Test Vuex
 - [ ] Proxy Dev Server
 - [ ] Eslint
@@ -31,6 +34,7 @@ npm run dev
 - [ ] Setup Jest
 - [ ] Setup Cypress
 - [ ] Other Libraries
+- [ ] Verify Build
 
 ## Issues Encountered
 1. Can't import boostrap file into one scss file - https://github.com/bootstrap-vue/bootstrap-vue/issues/5797
